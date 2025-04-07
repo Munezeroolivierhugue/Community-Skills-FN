@@ -1,12 +1,16 @@
-# React + Vite
+## Project Technical Description: Community Skills
+# Overview
+** Community Skills ** is a web application designed to facilitate skill-sharing among users by enabling them to create, manage, and participate in skill-based sessions. Users can register, authenticate, manage categories and skills, connect with others through sessions and messages, and provide reviews for completed sessions. The application aims to foster a collaborative community for learning and skill development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tech Stack
+## Backend:
+Framework: Spring Boot (Java)
+Database: MySQL (via Spring Data JPA)
+API: RESTful API
+Build Tool: Maven
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Frontend:
+Framework: React.js (using Vite for fast development and build)
+Styling: Tailwind CSS v4.1 (utility-first CSS framework)
+Routing: React Router v6
+HTTP Client: Axios (for API requests)
