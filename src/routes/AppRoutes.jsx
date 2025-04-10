@@ -8,6 +8,7 @@ import SessionsPage from '../pages/SessionsPage';
 import MessagesPage from '../pages/MessagesPage';
 import ReviewsPage from '../pages/ReviewsPage';
 import LoginPage from '../pages/LoginPage';
+import RegisterPage from '../pages/RegisterPage';
 import NotFoundPage from '../pages/NotFoundPage';
 
 export default function AppRoutes() {
@@ -22,6 +23,7 @@ export default function AppRoutes() {
       <Route path="/messages" element={<MessagesPage />} />
       <Route path="/reviews" element={<ReviewsPage />} />
       <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

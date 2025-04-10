@@ -1,9 +1,9 @@
-import React from 'react'
+import LoginForm from '../components/users/LoginForm';
 
-function LoginPage() {
+export default function LoginPage() {
   return (
-    <div>LoginPage</div>
-  )
+    <div className="py-6">
+      <LoginForm />
+    </div>
+  );
 }
-
-export default LoginPage
